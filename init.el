@@ -100,9 +100,9 @@
   (when (not (package-installed-p p))
     (package-install p)))
 
-(use-package ensime
-  :ensure t
-  :pin melpa-stable)
+;; Removing Ensime for the time being
+
+;;(use-package ensime :ensure t :pin melpa-stable)
 
 ;; Place downloaded elisp files in ~/.emacs.d/vendor. You'll then be able
 ;; to load them.
