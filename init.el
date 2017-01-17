@@ -7,7 +7,7 @@
 (setq
  package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                     ("org" . "http://orgmode.org/elpa/")
-                    ("melpa" . "http://melpa.org/packages/")
+                ;;  ("melpa" . "http://melpa.org/packages/")
                     ("melpa-stable" . "http://stable.melpa.org/packages/")))
 
 ;;(add-to-list 'package-archives
@@ -90,6 +90,9 @@
 
     ;; Solirized theme
     solarized-theme
+
+    ;; Scala support
+    scala-mode
 ))
 
 ;; On OS X, an Emacs instance started from the graphical user

@@ -7,4 +7,3 @@
 (global-set-key "\C-z" 'undo)
 (global-set-key "\C-d\C-d" 'kill-whole-line)
 
-
