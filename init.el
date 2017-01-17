@@ -24,6 +24,9 @@
 ;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
 
 
+;; Make CIDER always use the stable Melpa repo
+(add-to-list 'package-pinned-packages '(cider . "melpa-stable") t)
+
 ;; Load and activate emacs packages. Do this first so that the
 ;; packages are loaded before you start trying to modify them.
 ;; This also sets the load path.
@@ -83,7 +86,11 @@
     tagedit
 
     ;; git integration
-    magit))
+    magit
+
+    ;; Solirized theme
+    solarized-theme
+))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
