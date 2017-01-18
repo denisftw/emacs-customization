@@ -1,8 +1,14 @@
 ;; javascript / html
-(add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
+
+
+;; Enabling JS mode for all JavaScript files
+(add-to-list 'auto-mode-alist '("\\.jsx?\\'" . js-mode))
+(add-to-list 'auto-mode-alist '("\\.es6\\'" . js-mode))
 (add-hook 'js-mode-hook 'subword-mode)
-(add-hook 'html-mode-hook 'subword-mode)
 (setq js-indent-level 2)
+
+
+(add-hook 'html-mode-hook 'subword-mode)
 (eval-after-load "sgml-mode"
   '(progn
      (require 'tagedit)
