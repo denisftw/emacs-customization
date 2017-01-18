@@ -93,6 +93,9 @@
 
     ;; Scala support
     scala-mode
+
+    ;; Directory tree
+    neotree
 ))
 
 ;; On OS X, an Emacs instance started from the graphical user
