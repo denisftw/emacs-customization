@@ -85,9 +85,6 @@
     ;; edit html tags like sexps
     tagedit
 
-    ;; git integration
-    magit
-
     ;; Solirized theme
     solarized-theme
 
@@ -96,6 +93,9 @@
 
     ;; Directory tree
     neotree
+
+    ;; Markdown Mode
+    markdown-mode
 ))
 
 ;; On OS X, an Emacs instance started from the graphical user

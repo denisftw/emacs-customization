@@ -30,10 +30,9 @@
 ;; (add-to-list 'load-path "~/.emacs.d/themes")
 
 ;; (load-theme 'tomorrow-night-bright t)
-;;(load-theme 'base16-flat t)
 (load-theme 'solarized-dark t)
 ;;(load-theme 'tango-plus t)
-;;(load-theme 'base16-google-light t)
+;; (load-theme 'base16-google-light t)
 
 ;; increase font size for better readability
 ;;(set-face-attribute 'default nil :height 140
