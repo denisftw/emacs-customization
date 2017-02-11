@@ -7,6 +7,9 @@
 ;; Turn off the menu bar at the top of each frame because it's distracting
 (menu-bar-mode -1)
 
+;; Turn off the tool bar as well
+(tool-bar-mode -1)
+
 ;; Show line numbers
 (global-linum-mode)
 
@@ -31,6 +34,7 @@
 
 ;; (load-theme 'tomorrow-night-bright t)
 (load-theme 'solarized-dark t)
+;; (load-theme 'base16-google-light t)
 ;;(load-theme 'tango-plus t)
 ;; (load-theme 'base16-google-light t)
 
