@@ -80,3 +80,6 @@
      (define-key clojure-mode-map (kbd "C-M-r") 'cider-refresh)
      (define-key clojure-mode-map (kbd "C-c u") 'cider-user-ns)
      (define-key cider-mode-map (kbd "C-c u") 'cider-user-ns)))
+
+(add-hook 'clojure-mode-hook '(lambda ()
+  (local-set-key (kbd "RET") 'newline-and-indent)))
