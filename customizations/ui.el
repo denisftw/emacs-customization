@@ -38,6 +38,9 @@
 ;;(load-theme 'tango-plus t)
 ;; (load-theme 'base16-google-light t)
 
+;; Smart Mode Line
+(sml/setup)
+
 ;; increase font size for better readability
 ;;(set-face-attribute 'default nil :height 140
 (set-frame-font "Courier New 12")
