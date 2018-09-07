@@ -26,3 +26,9 @@
             (setq coffee-cleanup-whitespace nil)))
 (custom-set-variables
  '(coffee-tab-width 2))
+
+(add-hook 'js-mode-hook #'company-mode)
+
+(add-hook 'js-mode-hook '(lambda ()
+  (local-set-key (kbd "RET") 'newline-and-indent)))
+

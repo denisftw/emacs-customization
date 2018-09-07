@@ -169,6 +169,7 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+(load "setup-scala.el")
 
 ;; My key bindings
 (load "keys.el")
