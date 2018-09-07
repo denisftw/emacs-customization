@@ -83,7 +83,12 @@
      (define-key clojure-mode-map (kbd "C-c C-v") 'cider-start-http-server)
      (define-key clojure-mode-map (kbd "C-M-r") 'cider-refresh)
      (define-key clojure-mode-map (kbd "C-c u") 'cider-user-ns)
-     (define-key cider-mode-map (kbd "C-c u") 'cider-user-ns)))
+     (define-key cider-mode-map (kbd "C-c u") 'cider-user-ns)
+     (define-key cider-repl-mode-map (kbd "C-.") 'cider-repl-clear-buffer)))
 
 (add-hook 'clojure-mode-hook '(lambda ()
   (local-set-key (kbd "RET") 'newline-and-indent)))
+
+(add-hook 'clojure-mode-hook 'eldoc-mode)
+
+(setq cider-repl-display-help-banner nil)
