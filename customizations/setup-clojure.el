@@ -92,3 +92,5 @@
 (add-hook 'clojure-mode-hook 'eldoc-mode)
 
 (setq cider-repl-display-help-banner nil)
+
+(setq cider-prompt-for-symbol nil)
