@@ -69,7 +69,7 @@
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description
     ;; of ido
-    ido-ubiquitous
+    ido-completing-read+
 
     ;; Enhances M-x to allow easier execution of commands. Provides
     ;; a filterable list of possible commands in the minibuffer
@@ -93,6 +93,9 @@
 
     ;; Scala support
     scala-mode
+
+    ;; Java support
+    groovy-mode
 
     ;; Directory tree
     neotree
@@ -167,6 +170,7 @@
 (load "elisp-editing.el")
 
 ;; Langauage-specific
+(load "setup-java.el")
 (load "setup-clojure.el")
 (load "setup-js.el")
 (load "setup-scala.el")
