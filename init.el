@@ -103,6 +103,10 @@
     ;; Markdown Mode
     markdown-mode
 
+    ;; Docker modes
+    dockerfile-mode
+    docker-compose-mode
+
     ;; Company autocompletion
     company    
 ))
