@@ -108,7 +108,10 @@
     docker-compose-mode
 
     ;; Company autocompletion
-    company    
+    company
+
+    ;; Multiple cursors
+    multiple-cursors
 ))
 
 ;; On OS X, an Emacs instance started from the graphical user

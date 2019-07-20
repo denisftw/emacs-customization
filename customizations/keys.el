@@ -7,3 +7,7 @@
 (global-set-key "\C-z" 'undo)
 (global-set-key "\C-d\C-d" 'kill-whole-line)
 
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
