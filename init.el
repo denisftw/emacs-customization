@@ -82,9 +82,6 @@
     ;; colorful parenthesis matching
     rainbow-delimiters
 
-    ;; edit html tags like sexps
-    tagedit
-
     ;; Solirized theme
     solarized-theme
 

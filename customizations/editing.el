@@ -1,5 +1,7 @@
 ;; Customizations relating to editing a buffer.
 
+(delete-selection-mode 1)
+
 ;; Key binding to use "hippie expand" for text autocompletion
 ;; http://www.emacswiki.org/emacs/HippieExpand
 (global-set-key (kbd "M-/") 'hippie-expand)
@@ -71,3 +73,6 @@
     (quit nil)))
 
 (setq electric-indent-mode nil)
+
+;; use 'deletion-selection-mode' even when 'paredit' is activated 
+(put 'paredit-forward-delete 'delete-selection 'supersede)
