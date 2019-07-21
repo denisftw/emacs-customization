@@ -79,6 +79,12 @@
     ;; project navigation
     projectile
 
+    ;; Git integration
+    magit
+
+    ;; shell integration
+    eshell
+
     ;; colorful parenthesis matching
     rainbow-delimiters
 
@@ -178,6 +184,7 @@
 (load "setup-clojure.el")
 (load "setup-js.el")
 (load "setup-scala.el")
+(load "setup-eshell.el")
 
 ;; My key bindings
 (load "keys.el")
@@ -203,3 +210,5 @@
  ;; If there is more than one, they won't work right.
  )
 
+
+(setq shell-command-switch "-ic")
