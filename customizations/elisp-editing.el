@@ -13,3 +13,8 @@
 (add-hook 'emacs-lisp-mode-hook 'turn-on-eldoc-mode)
 (add-hook 'lisp-interaction-mode-hook 'turn-on-eldoc-mode)
 (add-hook 'ielm-mode-hook 'turn-on-eldoc-mode)
+
+;; Enabling autocomplete and regular RET in ELisp files
+(add-hook 'emacs-lisp-mode-hook #'company-mode)
+(add-hook 'emacs-lisp-mode-hook '(lambda ()
+  (local-set-key (kbd "RET") 'newline-and-indent)))
