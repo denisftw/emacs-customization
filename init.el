@@ -100,6 +100,10 @@
     ;; Java support
     groovy-mode
 
+    ;; JavaScript support
+    tagedit
+    js2-mode
+    
     ;; Directory tree
     neotree
 
