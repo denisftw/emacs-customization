@@ -59,3 +59,6 @@
 
 ;; projectile everywhere!
 (projectile-global-mode)
+
+;; more convenient buffer selection
+(global-set-key (kbd "C-x C-b") 'bs-show)
